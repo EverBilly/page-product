@@ -1,0 +1,211 @@
+/* Declaracion de Variables */
+:root {
+  --space: 10px;
+  --normal: 12px;
+
+  --black-color: #313337
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+p, label {
+  font-size: var(--normal);
+}
+
+/* Inicio de Navbar */
+nav {
+  display: flex;
+  background-color: #054e79;
+  padding: var(--space);
+  justify-content: space-between;
+  align-items: center;
+}
+
+div img {
+  width: 80px;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: #eef5dd;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+/* Fin de Navbar */
+
+/* Inicio de Main Section */
+
+.main-section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url('../img/curve.png');
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  width: 80%;
+}
+
+.product {
+  padding: 20px;
+  margin-top: -250px;
+  width: auto;
+}
+
+.product .content {
+  background-color: white;
+  padding: 15px;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.img-content {
+  text-align: center;
+}
+
+.main-button {
+  background-color: #7acc2d;
+  width: 100%;
+  font-size: 15px;
+  padding: var(--space);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+.main-button:hover {
+  background-color: #5e9e22;
+  cursor: pointer;
+}
+/* Fin de Main Section */
+
+/* Inicio Seccion de Productos nuevos */
+.section-objects {
+  display: flex;
+  justify-content: center;
+}
+
+.objects-title {
+  position: absolute;
+}
+
+.div-section-objects {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.div-section-objects .objects-content {
+  background-color: white;
+  padding: 20px;
+  border-style: double;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.objects-img {
+  text-align: center;
+}
+/* Fin seccion de productos nuevos */
+
+/* Inicio Seccion de menciones */
+.section-menciones {
+  display: flex;
+  justify-content: center;
+}
+
+.menciones-title {
+  position: absolute;
+}
+
+.div-section-menciones {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menciones-content {
+  background-color: white;
+  border-style: solid;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.menciones-img {
+  text-align: center;
+}
+/* Fin seccion de menciones */
+
+/* Inicio Producto */
+div .row img{
+  width: 100%;
+  height: 100%;
+}
+.container .product-description{
+  margin: 100px;
+}
+
+/* Fin Producto */
+
+/* Inicio Venta */
+
+.modulo-pago-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.container .modulo-pago {
+  padding: 20px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.modulo-pago input {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+/* Fin Venta */
+
+/* Inicio Footer*/
+footer {
+  background-color: #5B005C;
+	/*#79589f*/
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer .terms, .contact {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+}
+/* Fin Footer */

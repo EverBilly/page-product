@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <title>Brand</title>
+</head>
+<body>
+  <!-- Inicio de Navbar -->
+  <nav class="fadeInDown">
+    <div class="logo">
+      <img src="./img/soft-logo.png">
+    </div>
+    <ul class="nav-options">
+      <li><a href="#">FAQs</a></li>
+      <li><a href="index.html">Inicio</a></li>
+    </ul>
+  </nav>
+  <!-- Fin del Navbar -->
+  <!-- Inicio del Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="modulo-pago">
+          <div class="modulo-pago-image">
+            <img src="./img/soft-pago.png" alt="">
+          </div>
+          <h2>Producto #1</h2>
+          <p>Cantidad de productos dentro del mercado, pero nada se compara a lo que te ofrecemos en nuestra empresa</p>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="modulo-pago">
+          <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H3LQWKXWBJHUG" method="post">
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name"><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email"><br>
+            <label for="telefono">Telefono</label><br>
+            <input type="text" name="telefono"><br><br>
+            <input type="submit" class="main-button" name="submit" value="Realizar Pago">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del Container -->
+  <!-- Inicio Footer -->
+  <footer>
+    <div class="terms">Terminos y Condiciones</div>
+    <div class="contact">ecifuentes@protonmail.com</div>
+  </footer>
+<!-- Fin Footer -->
+<script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+</html>
